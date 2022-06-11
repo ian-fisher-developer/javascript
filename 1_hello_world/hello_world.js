@@ -1,3 +1,4 @@
 import {Greeting} from './modules/greeting.js';
 
-alert(new Greeting().getMessage());
+let greeting = new Greeting();
+alert(greeting.getMessage());
