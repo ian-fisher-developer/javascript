@@ -1,18 +1,25 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
-    <script>mocha.setup('bdd');</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
-    <script>let assert = chai.assert;</script>
+    <meta charset="utf-8">
+    <title>Hello World Tests</title>
+    <link href="https://unpkg.com/mocha@4.0.1/mocha.css" rel="stylesheet" />
 </head>
 <body>
-    <div id="mocha"></div>
+<div id="mocha"></div>
 
-    <!-- The test scripts -->
-    <script type="module" src="./greeting_test.js"></script>
+<script src="https://unpkg.com/chai@4.1.2/chai.js"></script>
+<script>let assert = chai.assert;</script>
+<script src="https://unpkg.com/mocha@4.0.1/mocha.js"></script>
 
-    <script type="module">mocha.run();</script>
+<script>mocha.setup('bdd')</script>
+
+
+<script type="module" src="./greeting_test.js"></script>
+
+
+<script type="module">
+    mocha.checkLeaks();
+    mocha.run();
+</script>
 </body>
 </html>

@@ -12,7 +12,13 @@ While simple, the exercise is deliberately over-engineered to include a unit tes
 
 ## Tests
 
+A Mocha unit test defines the greeting message -- open modules/test/runner.html with a server.
+
+![Test Results](Tests.png)
 
 
 ## Application
 
+Open hello_world.html with a server.
+
+![Application](Application.png)
