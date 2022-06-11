@@ -20,6 +20,6 @@ The first exercises are simple. The goal is to run in any modern browser with no
 
 Many tutorials start gently by opening code from your local file system in a browser. That's nice, but here the very first exercise introduces JavaScript modules, an essential code organization technique. Modules do not work directly from the local file system. They require a server.
 
-Happily, many IDEs provide assistance. For example, if you use VSCode, install the Live Server extension, then right-click in the HTML editor and select the "Open with Live Server" item.
+Happily, many IDEs provide assistance. For example, VSCode users can install the Live Server extension and then right-click in the HTML editor for "Open with Live Server".
 
-That should be enough to get started developing many lines of well-tested code.
+That should be enough to get started developing well-structured, well-tested code.
