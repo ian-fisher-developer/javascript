@@ -11,7 +11,7 @@ This is a brief summary of the exercises. Click the links above for more informa
 
 1. Hello World
 
-   The typical starter application, useful for discovering configuration details.
+   The typical first exercise, deliberately over-engineered to include a unit test of a class in a module -- useful for discovering configuration details.
 
 
 ## Configuration
